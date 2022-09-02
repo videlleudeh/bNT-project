@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: rgb(25, 27, 26);
+    color: white;
+}
+
+#bnt-nav {
+    font-family: "Audiowide", sans-serif;
+}
+
+nav {
+    box-shadow: 10px 10px 5px rgb(118, 121, 122);
+
+}
+
+#navbarCollapse a {
+    color: white;
+    text-decoration: none;
+}
+
+#header img {
+    height: 90%;
+}
+
+/* #header #carousel {
+    height: 75vh;
+} */
+
+#header {
+    height: auto;
+}
