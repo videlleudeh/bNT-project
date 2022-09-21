@@ -14,10 +14,10 @@
 </head>
 <body>
     
-    <nav class="shadow navbar fixed-top-md bg-dark navbar-dark">
+    <nav class="shadow navbar fixed-top-md navbar-dark">
         <div class="container-fluid" id="navbar">
             <div class="p-md-4 ps-md-5">
-                <a class="navbar-brand link-light fw-bold" href="index.html" id="bnt-nav">
+                <a class="navbar-brand" href="index.html" id="bnt-nav">
                     <img src="{% static 'images/bnt-logo-2.jpg' %}" alt="bntlogo2" width="30" height="30" class="img-fluid d-inline-block align-text-top rounded">
                     BNT INNOVATIONS
                 </a>
@@ -53,11 +53,13 @@
         <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="{% static 'images/car-3.jpg'%}" class="d-block img-fluid w-100" alt="Benz">
+                <img src="{% static 'images/car-12.jpg'%}" class="d-block img-fluid w-100" alt="Benz">
                 <div class="carousel-caption d-block w-md-50">
                     <h1>Get the Best Affordable Cars</h1>
                     <p>Bridging the gap between car industries in Nigeria by getting the best of Used and New cars</p>
-                    <button class="rounded-pill px-5 py-2 border-light bg-none">Browse Cars</button>
+                    <div class="carousel-btn ">
+                        <a href="#" class="btn rounded-pill w-50" id="btn-1" role="button" >Browse Cars</a>
+                    </div>
                 </div>
               </div>
               <div class="carousel-item">
@@ -65,7 +67,9 @@
                 <div class="carousel-caption d-block w-md-50">
                     <h1>Get the Best Affordable Cars</h1>
                     <p>Bridging the gap between car industries in Nigeria by getting the best of Used and New cars</p>
-                    <button class="rounded-pill px-5 py-2 border-light bg-none">Browse Cars</button>
+                    <div class="carousel-btn">
+                        <a href="#" class="btn rounded-pill w-50"  id="btn-2" role="button">Browse Cars</a>
+                    </div>
                 </div>
               </div>
               <div class="carousel-item">
@@ -73,7 +77,9 @@
                 <div class="carousel-caption d-block w-md-50">
                     <h1>Get the Best Affordable Cars</h1>
                     <p>Bridging the gap between car industries in Nigeria by getting the best of Used and New cars</p>
-                    <button class="rounded-pill px-5 py-2 border-light bg-none">Browse Cars</button>
+                    <div class="carousel-btn">
+                        <a href="#" class="btn rounded-pill w-50"  id="btn-3" role="button">Browse Cars</a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -81,8 +87,135 @@
     </header>
 
     <main>
+        <section id="section-1" class="container">
+            <h1 class="my-md-5">Find your New and Used Cars!</h1>
+            <p>Billy No Time(B.N.T) Innovations was founded in 2016 out of the compassion to bridge the gap between importation and exportation of both new and used cars in Nigeria. We have sold over 257 units since inception hoping to make you satisfied by being another one of reputable clients...</p>
+        <section>
 
+        <section id="section-2" class="container">
+            <h2 class="my-md-5">FEATURED CARS</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card text-white text-center" style="width: 20rem;">
+                        <img src="{% static 'images/car-8.jpg'%}" class="card-img-top img-fluid" alt="Benz">
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color: white;"><h4 class="card-title text-uppercase">Mercedes Benz G-Wagon</h4></a>
+                            <p class="card-text fs-5">#22,500,000</p>
+                            <span><small class="fw-light">Petrol  / 2019  / New Vehicle</small></span>
+                            <div class="carousel-btn">
+                                <a href="#" class="btn mt-3 rounded-pill w-75"  id="btn-4">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white text-center" style="width: 20rem;">
+                        <img src="{% static 'images/car-9.jpg'%}" class="card-img-top img-fluid" alt="Benz">
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color: white;"><h4 class="card-title text-uppercase">Mercedes Benz G-Wagon</h4></a>
+                            <p class="card-text fs-5">#22,500,000</p>
+                            <span><small class="fw-light">Petrol  / 2019  / New Vehicle</small></span>
+                            <div class="carousel-btn">
+                                <a href="#" class="btn mt-3 rounded-pill w-75"  id="btn-5">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white text-center" style="width: 20rem;">
+                        <img src="{% static 'images/car-10.jpg'%}" class="card-img-top img-fluid" alt="Benz">
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color: white;"><h4 class="card-title text-uppercase">Mercedes Benz G-Wagon</h4></a>
+                            <p class="card-text fs-5">#22,500,000</p>
+                            <span><small class="fw-light">Petrol  / 2019  / New Vehicle</small></span>
+                            <div class="carousel-btn">
+                                <a href="#" class="btn mt-3 rounded-pill w-75" id="btn-6">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white text-center" style="width: 20rem;">
+                        <img src="{% static 'images/car-8.jpg'%}" class="card-img-top img-fluid" alt="Benz">
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color: white;"><h4 class="card-title text-uppercase">Mercedes Benz G-Wagon</h4></a>
+                            <p class="card-text fs-5">#22,500,000</p>
+                            <span><small class="fw-light">Petrol  / 2019  / New Vehicle</small></span>
+                            <div class="carousel-btn">
+                                <a href="#" class="btn mt-3 rounded-pill w-75" id="btn-7">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white text-center" style="width: 20rem;">
+                        <img src="{% static 'images/car-9.jpg'%}" class="card-img-top img-fluid" alt="Benz">
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color: white;"><h4 class="card-title text-uppercase">Mercedes Benz G-Wagon</h4></a>
+                            <p class="card-text fs-5">#22,500,000</p>
+                            <span><small class="fw-light">Petrol  / 2019  / Used Vehicle</small></span>
+                            <div class="carousel-btn">
+                                <a href="#" class="btn mt-3 rounded-pill w-75" id="btn-8">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white text-center" style="width: 20rem;">
+                        <img src="{% static 'images/car-10.jpg'%}" class="card-img-top img-fluid" alt="Benz">
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color: white;"><h4 class="card-title text-uppercase">Mercedes Benz G-Wagon</h4></a>
+                            <p class="card-text fs-5">#22,500,000</p>
+                            <span><small class="fw-light">Petrol  / 2019  / New Vehicle</small></span>
+                            <div class="carousel-btn">
+                                <a href="#" class="btn mt-3 rounded-pill w-75" id="btn-9">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
+
+    <section id="section-3" class="mt-5">
+        <div class="container text-center">
+            <h1 class="py-4 mt-3">Best Reviews</h1>
+            <p>Here's what our best buyers are saying:</p>
+            <div id="carousel" class="carousel slide w-md-50 h-auto mx-auto " data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-column p-5 text-center rounded">
+                            <img src="{% static 'images/profile-image-01.jpg' %}"  class="img-fluid mx-auto my-3"  alt="profile picture" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <h4>Chioma Nwogu</h4>
+                            <p>“Went with my wife, absolutely brilliant restaurant, the food tasted beautiful, so much depth and very well presented. As good if not better than any in the city centre. Will definitely be returning.”</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column p-5 text-center rounded">
+                            <img src="{% static 'images/profile-image-01.jpg' %}"  class="img-fluid mx-auto my-3"  alt="profile picture" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <h4>Richfield Dilosi</h4>
+                            <p>“Great friendly service, the staff don't make you feel rushed, but are also very attentive, and on hand all the time if needed, best Thai food I have had in years, flavours are out of this world, and extremely good prices for the quality you get is top notch!!!!!! Love it”</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column p-5 text-center rounded">
+                            <img src="{% static 'images/profile-image-01.jpg' %}"  class="img-fluid mx-auto my-3"  alt="profile picture" style="width: 40px; height: 40px; border-radius: 50%;">
+                            <h4>Videlle Udeh</h4>
+                            <p>“Possibly one of the best in Manchester. A menu designed and prepared by a very skilled chef, ably assisted by his wife who provides a friendly welcome. Always consistent and of high quality.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
 
     <footer>
         
